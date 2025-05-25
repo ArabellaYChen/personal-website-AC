@@ -2,6 +2,7 @@
   "name": "arabella-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://your-username.github.io/personal-website-AC",
   "dependencies": {
     "autoprefixer": "^10.4.14",
     "axios": "^1.9.0",
@@ -26,6 +27,8 @@
     "eject": "react-scripts eject",
     "server": "node server.js",
     "dev": "concurrently \"npm run start\" \"npm run server\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build"
   },
   "browserslist": {
@@ -41,7 +44,8 @@
     ]
   },
   "devDependencies": {
-    "concurrently": "^8.2.2"
+    "concurrently": "^8.2.2",
+    "gh-pages": "^6.3.0"
   },
   "proxy": "http://localhost:5000"
 }
