@@ -10,7 +10,7 @@ function Interests({ darkMode }) {
   
   // Music by 杨千嬅 (Miriam Yeung)
   const favoriteSongs = [
-    { name: '可惜我是水瓶座', year: 2002, description: 'One of 杨千嬅\'s most iconic songs about love and zodiac compatibility.' },
+    { name: '翅膀下的风', year: 2012, description: '原来盛世也许只不过水影镜花' },
     { name: '野孩子', year: 2001, description: 'A beautiful song about freedom and wildness of youth.' },
     { name: '勇', year: 2002, description: '望著是萬馬 千軍都直衝。' },
     { name: '火鸟', year: 2012, description: '火花擦随后更加丰盛' }
