@@ -86,7 +86,7 @@ const PhotoGallery = ({ darkMode }) => {
         Moments of Peace
       </h2>
       <p className={`mb-6 ${darkMode ? 'text-gray-300' : 'text-gray-700'}`}>
-        Capturing beautiful moments that bring tranquility to my life - from golden sunsets to peaceful nature retreats.
+      Capturing serene moments that bring peace to my life — from golden sunsets to quiet escapes in nature.
       </p>
       
       {/* Photo grid with staggered animation */}

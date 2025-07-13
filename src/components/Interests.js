@@ -10,10 +10,10 @@ function Interests({ darkMode }) {
   
   // Music by 杨千嬅 (Miriam Yeung)
   const favoriteSongs = [
-    { name: '可惜我是水瓶座', year: 2001, description: 'One of 杨千嬅\'s most iconic songs about love and zodiac compatibility.' },
-    { name: '野孩子', year: 2000, description: 'A beautiful song about freedom and wildness of youth.' },
-    { name: '花与爱丽丝', year: 2005, description: 'Emotional ballad showcasing her vocal talents.' },
-    { name: '披着羊皮的狼', year: 2007, description: 'Catchy tune with deeper meaning about deception.' }
+    { name: '可惜我是水瓶座', year: 2002, description: 'One of 杨千嬅\'s most iconic songs about love and zodiac compatibility.' },
+    { name: '野孩子', year: 2001, description: 'A beautiful song about freedom and wildness of youth.' },
+    { name: '勇', year: 2002, description: '望著是萬馬 千軍都直衝。' },
+    { name: '火鸟', year: 2012, description: '火花擦随后更加丰盛' }
   ];
   
   // Nature spots
@@ -207,7 +207,7 @@ function Interests({ darkMode }) {
                 whileHover={{ scale: 1.02 }}
               >
                 <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                  "Music is the emotional diary of my life, with 杨千嬅's songs marking many important memories."
+                  "Music is the emotional diary of my life, with Miriam Yeung's songs marking many important memories."
                 </p>
               </motion.div>
             </div>

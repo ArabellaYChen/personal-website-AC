@@ -330,7 +330,7 @@ export default function Portfolio() {
                 <motion.a
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
-                  href="https://github.com/" 
+                  href="https://github.com/ArabellaYChen" 
                   target="_blank" 
                   rel="noreferrer"
                   className={`p-3 rounded-full ${darkMode ? 'bg-gray-800 text-white hover:bg-gray-700' : 'bg-gray-100 text-gray-700 hover:bg-gray-200'}`}
@@ -386,25 +386,25 @@ export default function Portfolio() {
                   <div className="grid md:grid-cols-2 gap-8">
                     <div className="space-y-4">
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        I'm Arabella Chen, a Business Economics and Computer Science student at UC San Diego. I'm passionate about combining data analysis with financial knowledge to solve complex business problems.
+                      I'm Arabella Chen, a UC San Diego student who is double majoring in Business Economics and Mathematics and Computer Science. I’m passionate about integrating data analysis with financial insight to tackle complex business challenges.
                       </p>
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        As an aspiring analyst, I excel at using programming and statistical tools for data mining and financial modeling. My goal is to build a career in fintech, combining technological innovation with financial analysis.
+                      As an aspiring analyst, I thrive on using programming and statistical tools for data mining, financial modeling, and deriving actionable insights. My long-term goal is to build a career in fintech, where I can blend innovation with analytical rigor.
                       </p>
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        Beyond my academic pursuits, I have diverse interests including Chinese pop music (especially 杨千嬅's songs), exploring nature, and discovering delicious food. I believe in balancing analytical thinking with creative expression.
+                      Outside of academics, I have a wide range of interests—from listening to Chinese pop music (especially the songs of Miriam Yeung), to exploring nature and seeking out great food. I believe that balancing analytical thinking with creative expression is key to both personal and professional growth.
                       </p>
                     </div>
                     <div className="space-y-4">
                       <h3 className={`text-xl font-medium ${darkMode ? 'text-purple-400' : 'text-purple-700'}`}>Chinese Version (中文版本)</h3>
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        我是陈胤陶（Arabella），一名来自加州大学圣地亚哥分校的商业经济学与计算机科学专业的学生。我热衷于将数据分析与金融知识相结合，解决复杂的商业问题。
+                      我是陈音陶（Arabella），目前就读于加州大学圣地亚哥分校，主修商业经济学与计算机科学。我热衷于将数据分析与金融洞察相结合，解决复杂的商业难题。
                       </p>
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        作为一名有抱负的分析师，我擅长使用编程和统计工具进行数据挖掘和财务建模。我的目标是在金融科技领域建立职业生涯，将技术创新与金融分析相结合。
+                      作为一名有志于数据分析与金融科技的学生，我擅长运用编程和统计工具进行数据挖掘和财务建模，致力于提炼有价值的洞见。我的职业目标是投身金融科技行业，将技术创新与金融分析深度融合。
                       </p>
                       <p className={darkMode ? 'text-gray-300' : 'text-gray-700'}>
-                        除了学术追求，我还有多种兴趣，包括中文流行音乐（特别是杨千嬅的歌曲）、探索自然和发现美食。我相信平衡分析思维和创意表达的重要性。
+                      在学业之外，我兴趣广泛，喜欢听中文流行音乐（尤其是杨千嬅的歌曲）、亲近自然，以及发掘各地美食。我始终相信，理性思维与创意表达的平衡，是实现全面发展的关键。
                       </p>
                     </div>
                   </div>
@@ -486,11 +486,11 @@ export default function Portfolio() {
                       <h3 className={`text-xl font-medium mb-4 ${darkMode ? 'text-purple-400' : 'text-purple-700'}`}>Technical Skills</h3>
                       
                       <div className="space-y-4">
-                        <SkillBar name="Python" percentage={85} darkMode={darkMode} />
-                        <SkillBar name="SQL" percentage={80} darkMode={darkMode} />
-                        <SkillBar name="Java" percentage={70} darkMode={darkMode} />
+                        <SkillBar name="Python" percentage={100} darkMode={darkMode} />
                         <SkillBar name="Excel (Advanced)" percentage={90} darkMode={darkMode} />
-                        <SkillBar name="C" percentage={65} darkMode={darkMode} />
+                        <SkillBar name="SQL" percentage={85} darkMode={darkMode} />
+                        <SkillBar name="C" percentage={75} darkMode={darkMode} />
+                        <SkillBar name="Java" percentage={75} darkMode={darkMode} />
                         <SkillBar name="Stata" percentage={75} darkMode={darkMode} />
                       </div>
                     </div>
